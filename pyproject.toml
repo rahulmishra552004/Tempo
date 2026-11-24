@@ -1,13 +1,14 @@
 [project]
 name = "tempo"
 version = "0.1.0"
-description = "Add your description here"
+description = "Agentic AI chess coach: hints, move ratings and grounded explanations"
 readme = "README.md"
 authors = [
     { name = "rahulmishra552004", email = "rahulmishra552004@gmail.com" }
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "chess>=1.11.2",
     "fastapi>=0.165.0",
     "uvicorn[standard]>=0.54.0",
 ]
