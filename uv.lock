@@ -522,6 +522,7 @@ source = { editable = "." }
 dependencies = [
     { name = "chess" },
     { name = "fastapi" },
+    { name = "pydantic" },
     { name = "uvicorn", extra = ["standard"] },
 ]
 
@@ -536,6 +537,7 @@ dev = [
 requires-dist = [
     { name = "chess", specifier = ">=1.11.2" },
     { name = "fastapi", specifier = ">=0.165.0" },
+    { name = "pydantic", specifier = ">=2.14.4" },
     { name = "uvicorn", extras = ["standard"], specifier = ">=0.54.0" },
 ]
 
